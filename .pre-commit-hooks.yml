@@ -2,6 +2,6 @@
 - id: tf-flat-docs
   name: tf-flat-docs
   description: Run terraform-docs for a flat Terraform directory structure
-  entry: pre_commit_hooks/tf-flat-docs
+  entry: pre_commit_hooks/tf-flat-docs.sh
   language: script
   always_run: true
