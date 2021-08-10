@@ -5,3 +5,9 @@
   entry: pre_commit_hooks/tf-flat-docs.sh
   language: script
   always_run: true
+- id: tf-module-docs
+  name: tf-module-docs
+  description: Run terraform-docs for a Terraform directory with submodules under `./modules`
+  entry: pre_commit_hooks/tf-module-docs.sh
+  language: script
+  always_run: true
